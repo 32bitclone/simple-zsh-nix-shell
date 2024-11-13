@@ -1,6 +1,6 @@
 function in_nix_shell() {
   if [ ! -z ${IN_NIX_SHELL+x} ];
-    then echo " nix ";
+    then echo "❄️  nix-shell ";
   fi
 }
 
